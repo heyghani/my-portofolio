@@ -1,0 +1,208 @@
+{
+  "visual": {
+    "navbar": {
+      "links": [
+        {
+          "label": "Experience",
+          "path": "#experience"
+        },
+        {
+          "label": "Projects",
+          "path": "#projects"
+        },
+        {
+          "label": "Education",
+          "path": "#education"
+        }
+      ]
+    },
+    "home": {
+      "sections": {
+        "banner": true,
+        "experience": true,
+        "project": true,
+        "education": true,
+        "testimonial": true
+      }
+    }
+  },
+  "personalInfo": {
+    "name": "Walid Ghani",
+    "title": "Frontend Developer",
+    "location": "Jakarta, Indonesia",
+    "bio": "With 5 years of experience as a Frontend Developer, I bring deep expertise in creating high-quality web and mobile applications using React, React Native, Next.js, Vue.js, and Nuxt.js. Have ability to adapt to new technologies also a critical thinker make me a valuable asset to any development team. Lets collaborate andbring your ideas to life."
+  },
+  "contactInfo": {
+    "email": "heyghani@gmail.com",
+    "phone": "123-456-7890",
+    "linkedin": "https://www.linkedin.com/in/heyghani/",
+    "github": "https://github.com/heyghani",
+    "instagram": "https://www.instagram.com/heyghani",
+    "website": "https://johndoe.dev"
+  },
+  "skills": {
+    "languages": ["JavaScript", "Python", "Java", "C++"],
+    "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
+    "databases": ["MySQL", "MongoDB", "PostgreSQL"],
+    "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "AWS", "GCP"]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "Holymoment",
+      "description": "A project goal tracking tool for professionals. It let's you create project, assign goals and generate analytics to track progress",
+      "technologies": ["Typescript", "Next.js", "Redux", "TailwindCSS", "WebGL", "Face Recognition", "Machine Learning"],
+      "live_url": "https://new.holymoment.hwgroup.id/",
+      "code_repo_url": "",
+      "cover": "/assets/project_1.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "HW Group Website",
+      "description": "A no-code pricing page builder. Build professional-looking pricing pages, customize looks, and get detailed analytics to optimize your pricing strategy.",
+      "technologies": ["Typescript", "Next.js", "Shadcn/ui", "Convex"],
+      "live_url": "https://pricingbees.com",
+      "code_repo_url": "https://pricingbees.com",
+      "cover": "/assets/project_2.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Euro Prediction",
+      "description": "A listing site for Indie hackers to promote their products",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
+      "live_url": "https://indiehustles.com",
+      "code_repo_url": "https://indiehustles.com",
+      "cover": "/assets/euro.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Restaurant Reservation",
+      "description": "A listing site for Indie hackers to promote their products",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
+      "live_url": "https://indiehustles.com",
+      "code_repo_url": "https://indiehustles.com",
+      "cover": "/assets/project_4.jpeg"
+    },
+    {
+      "id": "5",
+      "title": "Dashboard SKK Migas",
+      "description": "A listing site for Indie hackers to promote their products",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
+      "live_url": "https://indiehustles.com",
+      "code_repo_url": "https://indiehustles.com",
+      "cover": "/assets/project_5.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "Dashboard KKP",
+      "description": "A listing site for Indie hackers to promote their products",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
+      "live_url": "https://indiehustles.com",
+      "code_repo_url": "https://indiehustles.com",
+      "cover": "/assets/project_6.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "BNI Lifestyle: Taksi",
+      "description": "A listing site for Indie hackers to promote their products",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
+      "live_url": "https://indiehustles.com",
+      "code_repo_url": "https://indiehustles.com",
+      "cover": "/assets/bni-lifestyle.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Arcelle App",
+      "description": "A listing site for Indie hackers to promote their products",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
+      "live_url": "https://indiehustles.com",
+      "code_repo_url": "https://indiehustles.com",
+      "cover": "/assets/project_8.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "Onekideco",
+      "description": "A listing site for Indie hackers to promote their products",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
+      "live_url": "https://indiehustles.com",
+      "code_repo_url": "https://indiehustles.com",
+      "cover": "/assets/project_9.jpeg"
+    }
+  ],
+  "workExperience": [
+    {
+      "id": "1",
+      "company": "HW Group",
+      "companyWebsite": "https://new.hwgroup.id/",
+      "role": "Senior Frontend Developer",
+      "startDate": "Jan 2024",
+      "endDate": "Present",
+      "technologies": ["Vue.js", "Nuxt.js", "Next.js", "React", "Typescript", "TailwindCSS", "Redux", "Pinia"],
+      "keyResponsibilities": [
+        "Developed interactive web applications using advanced JavaScript libraries and APIs such as Nuxtjs and Nextjs.",
+        "Identify and fix bugs, and optimize existing code for performance and usability.",
+        "Optimized user experience across a range of devices.",
+        "Ensure applications are optimized for speed, scalability, and maintainability.",
+        "Work closely with UI/UX designers, backend developers, and product managers to translate design wireframes and business requirements into fully functional, responsive, and user-friendly applications."
+      ]
+    },
+    {
+      "id": "2",
+      "company": "PT. Indocyber Global Teknologi",
+      "companyWebsite": "https://www.indocyber.co.id/",
+      "role": "React Developer",
+      "startDate": "Januari 2020",
+      "endDate": "Dec 2023",
+      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "keyResponsibilities": [
+        "Developed 8+ interactive web & mobile applications using advanced JavaScript libraries and APIs such as Reactjs, React Native and Nextjs.",
+        "Participate in agile ceremonies, such as sprint planning, daily stand-ups, and retrospectives.",
+        "Create and maintain detailed technical documentation, including design specs, API documentation, and user guides for frontend components.",
+        "Develop and execute unit tests, integration tests, and end-to-end tests to ensure code quality and application stability.",
+        "Refactor legacy code to improve structure, readability, and performance.",
+        "Debug and troubleshoot complex frontend issues, providing effective solutions in a timely manner."
+      ]
+    },
+    {
+      "id": "3",
+      "company": "PT. Arcelle Adi Perkasa",
+      "companyWebsite": "https://www.indocyber.co.id/",
+      "role": "React Native Developer (Freelance)",
+      "startDate": "November 2021",
+      "endDate": "February 2022",
+      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "keyResponsibilities": [
+        "Develop such a mobile application using React Native",
+        "Work closely with UI/UX designers, backend developers, and product managers to translate design wireframes and business requirements into fully functional, responsive, and user-friendly applications."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "institution": "University Of Muhammadiyah Malang",
+      "degree": "Bachelor of Informatic Engineering",
+      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
+      "startDate": "Sep 2014",
+      "endDate": "Apr 2019"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Jane Smith",
+      "avatar": "/assets/testimonial_1_avatar.jpg",
+      "title": "Project Manager",
+      "company": "Tech Solutions Inc.",
+      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
+    },
+    {
+      "id": "2",
+      "name": "Mike Johnson",
+      "avatar": "/assets/testimonial_2_avatar.jpg",
+      "title": "CEO",
+      "company": "Web Innovators LLC",
+      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
+    }
+  ]
+}
