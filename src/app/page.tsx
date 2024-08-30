@@ -166,26 +166,30 @@ export default async function Home() {
                 </CardContent>
                 <CardFooter>
                   <div className="flex space-x-3">
-                    <Link
-                      target="_blank"
-                      href={project.live_url}
-                      prefetch={false}
-                    >
-                      <Button size="sm">
-                        <GlobeIcon className="h-3 w-3 mr-2" />
-                        Live Demo
-                      </Button>
-                    </Link>
-                    <Link
-                      target="_blank"
-                      href={project.code_repo_url}
-                      prefetch={false}
-                    >
-                      <Button size="sm" variant="outline">
-                        <GitHubLogoIcon className="h-3 w-3 mr-2" />
-                        Open Repository
-                      </Button>
-                    </Link>
+                    {project.live_url && (
+                      <Link
+                        target="_blank"
+                        href={project.live_url}
+                        prefetch={false}
+                      >
+                        <Button size="sm">
+                          <GlobeIcon className="h-3 w-3 mr-2" />
+                          Live Demo
+                        </Button>
+                      </Link>
+                    )}
+                    {project.code_repo_url && (
+                      <Link
+                        target="_blank"
+                        href={project.code_repo_url}
+                        prefetch={false}
+                      >
+                        <Button size="sm" variant="outline">
+                          <GitHubLogoIcon className="h-3 w-3 mr-2" />
+                          Open Repository
+                        </Button>
+                      </Link>
+                    )}
                   </div>
                 </CardFooter>
               </div>

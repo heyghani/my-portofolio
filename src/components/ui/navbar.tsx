@@ -12,11 +12,10 @@ export default async function Navbar() {
     <header className="fixed top-0 z-50 w-full bg-white shadow-sm dark:bg-gray-950">
       <div className="container max-w-5xl mx-auto flex h-18 items-center justify-between py-2 px-4 md:px-6">
         <Link href="/" className="flex items-center" prefetch={false}>
-          <Image
+          <img
             src="/assets/logo.png"
-            height={60}
-            width={60}
-            alt={"devfolio logo"}
+            alt={"ghani logo"}
+            className="h-20 w-40 object-cover"
           />
         </Link>
         <nav className="hidden space-x-4 lg:flex">

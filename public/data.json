@@ -30,7 +30,7 @@
     "name": "Walid Ghani",
     "title": "Frontend Developer",
     "location": "Jakarta, Indonesia",
-    "bio": "With 5 years of experience as a Frontend Developer, I bring deep expertise in creating high-quality web and mobile applications using React, React Native, Next.js, Vue.js, and Nuxt.js. Have ability to adapt to new technologies also a critical thinker make me a valuable asset to any development team. Lets collaborate andbring your ideas to life."
+    "bio": "With 5 years of experience as a Frontend Developer, I bring deep expertise in creating high-quality web and mobile applications using React, React Native, Next.js, Vue.js, and Nuxt.js. Have ability to adapt to new technologies also a critical thinker make me a valuable asset to any development team. Lets collaborate and bring your ideas to life."
   },
   "contactInfo": {
     "email": "heyghani@gmail.com",
@@ -50,7 +50,7 @@
     {
       "id": "1",
       "title": "Holymoment",
-      "description": "A project goal tracking tool for professionals. It let's you create project, assign goals and generate analytics to track progress",
+      "description": "A project for hw's user that can be find their photos on outlet using face recognation to automaticly detecting their faces, then they can buy it from this application. There is also dashboard for photographer to upload and sell their photograph.",
       "technologies": ["Typescript", "Next.js", "Redux", "TailwindCSS", "WebGL", "Face Recognition", "Machine Learning"],
       "live_url": "https://new.holymoment.hwgroup.id/",
       "code_repo_url": "",
@@ -59,73 +59,73 @@
     {
       "id": "2",
       "title": "HW Group Website",
-      "description": "A no-code pricing page builder. Build professional-looking pricing pages, customize looks, and get detailed analytics to optimize your pricing strategy.",
-      "technologies": ["Typescript", "Next.js", "Shadcn/ui", "Convex"],
-      "live_url": "https://pricingbees.com",
-      "code_repo_url": "https://pricingbees.com",
+      "description": "A company profile that including details of their brands, detail of every outlet and detail of every event's outlets",
+      "technologies": ["Typescript", "Nuxt.js", "Pinia", "Boostraps", "SCSS"],
+      "live_url": "https://new.hwgroup.id/",
+      "code_repo_url": "",
       "cover": "/assets/project_2.jpeg"
     },
     {
       "id": "3",
       "title": "Euro Prediction",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
+      "description": "A webview application for predict Euro Cup 2024 that integrated with Holywings App",
+      "technologies": ["Typescript", "Nuxt.js", "Pinia", "TailwindCSS"],
+      "live_url": "",
+      "code_repo_url": "",
       "cover": "/assets/euro.jpg"
     },
     {
       "id": "4",
       "title": "Restaurant Reservation",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
+      "description": "Web application for restaurant reservation",
+      "technologies": ["Typescript", "Next.js", "TailwindCSS"],
+      "live_url": "",
+      "code_repo_url": "",
       "cover": "/assets/project_4.jpeg"
     },
     {
       "id": "5",
       "title": "Dashboard SKK Migas",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
+      "description": "Dashboard application for internal system for client SKK Migas client of BNI, with using of Microfrontend technology and Reactjs.",
+      "technologies": ["React.s", "TailwindCSS", "Microfrontend SPA", "Docker", "OpenShift"],
+      "live_url": "",
+      "code_repo_url": "",
       "cover": "/assets/project_5.jpeg"
     },
     {
       "id": "6",
       "title": "Dashboard KKP",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
+      "description": "Dashboard application for internal system that integrated with BNI core banking for credit card application that having approval system depends on user role.",
+      "technologies": ["React.js", "TailwindCSS", "Microfrontend SPA", "Docker", "OpenShift"],
+      "live_url": "",
+      "code_repo_url": "",
       "cover": "/assets/project_6.jpeg"
     },
     {
       "id": "7",
       "title": "BNI Lifestyle: Taksi",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
+      "description": "A webview application using Nextjs and integrated with Bluebird API to built in with BNI Mobile for ordering taksi.",
+      "technologies": ["Next.js", "TailwindCSS", "Redux", "Google Maps API", "Geolocation"],
+      "live_url": "",
+      "code_repo_url": "",
       "cover": "/assets/bni-lifestyle.jpg"
     },
     {
       "id": "8",
       "title": "Arcelle App",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
-      "cover": "/assets/project_8.jpeg"
+      "description": "A mobile apps for retail store that showing their products and user can checkout to proceed a payment.",
+      "technologies": ["React Native", "Redux", "Styled Component", "Xendit Payment Gateway"],
+      "live_url": "https://play.google.com/store/apps/details?id=com.arcelleapp&hl=id",
+      "code_repo_url": "",
+      "cover": "/assets/arcelle.jpg"
     },
     {
       "id": "9",
       "title": "Onekideco",
-      "description": "A listing site for Indie hackers to promote their products",
-      "technologies": ["Typescript", "Next.js", "TailwindCSS", "Airtable"],
-      "live_url": "https://indiehustles.com",
-      "code_repo_url": "https://indiehustles.com",
+      "description": "Project for mining company internal system, a dashboard for monitoring and storing data and mobile apps that integrated with the dashboard.",
+      "technologies": ["React.js", "React Native", "Styled Component", "Google Maps API", "Docker", "Azure", "Jest Unit Testing", "Agile Methodology"],
+      "live_url": "",
+      "code_repo_url": "",
       "cover": "/assets/project_9.jpeg"
     }
   ],
@@ -182,27 +182,9 @@
       "id": "1",
       "institution": "University Of Muhammadiyah Malang",
       "degree": "Bachelor of Informatic Engineering",
-      "description": "Completed a Coursera specialization that focused on building full-stack web applications using React, Node.js, Express, and MongoDB. Learned best practices for designing and implementing responsive, scalable, and secure web applications.",
+      "description": "A Bachelor of Informatic Engineering with a focus on Software Engineering is an undergraduate degree program that combines the principles of computer science, information technology, and engineering with a deep emphasis on the design, development, and maintenance of software systems.",
       "startDate": "Sep 2014",
       "endDate": "Apr 2019"
-    }
-  ],
-  "testimonials": [
-    {
-      "id": "1",
-      "name": "Jane Smith",
-      "avatar": "/assets/testimonial_1_avatar.jpg",
-      "title": "Project Manager",
-      "company": "Tech Solutions Inc.",
-      "feedback": "John is a fantastic developer who consistently delivers high-quality work. His ability to solve complex problems is impressive."
-    },
-    {
-      "id": "2",
-      "name": "Mike Johnson",
-      "avatar": "/assets/testimonial_2_avatar.jpg",
-      "title": "CEO",
-      "company": "Web Innovators LLC",
-      "feedback": "John is a highly skilled developer who brings a lot of value to our projects. His expertise in full stack development is top-notch."
     }
   ]
 }
