@@ -18,7 +18,6 @@ import {
   InstagramLogoIcon,
   GlobeIcon,
 } from "@radix-ui/react-icons";
-import { Avatar } from "@/components/ui/avatar";
 import Image from "next/image";
 
 export default async function Home() {
