@@ -49,8 +49,17 @@
   "projects": [
     {
       "id": "1",
+      "title": "Song Request",
+      "description": "A webview application for requesting song, there is two sides of user which requester and band. You can make a request depends of request session per days, need internal accounts to access the panel to accepting list of requested song.",
+      "technologies": ["Typescript", "Nuxt.js", "Pinia", "TailwindCSS"],
+      "live_url": "https://song-request.hwgroup.id",
+      "code_repo_url": "",
+      "cover": "/assets/song-request.png"
+    },
+    {
+      "id": "1",
       "title": "Holymoment",
-      "description": "A project for hw's user that can be find their photos on outlet using face recognation to automaticly detecting their faces, then they can buy it from this application. There is also dashboard for photographer to upload and sell their photograph.",
+      "description": "A project for hw's user that can be find their photos on outlet using face recognition to automaticly detecting their faces, then they can buy it from this application. There is also dashboard for photographer to upload and sell their photograph.",
       "technologies": ["Typescript", "Next.js", "Redux", "TailwindCSS", "WebGL", "Face Recognition", "Machine Learning"],
       "live_url": "https://new.holymoment.hwgroup.id/",
       "code_repo_url": "",
@@ -59,9 +68,9 @@
     {
       "id": "2",
       "title": "HW Group Website",
-      "description": "A company profile that including details of their brands, detail of every outlet and detail of every event's outlets",
+      "description": "A company profile that including details of their brands, events, news, partnerships and also you can choose an outlet to make a reservation.",
       "technologies": ["Typescript", "Nuxt.js", "Pinia", "Boostraps", "SCSS"],
-      "live_url": "https://new.hwgroup.id/",
+      "live_url": "https://holywings.com/",
       "code_repo_url": "",
       "cover": "/assets/project_2.jpeg"
     },
