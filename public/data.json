@@ -3,6 +3,10 @@
     "navbar": {
       "links": [
         {
+          "label": "Skills",
+          "path": "#skills"
+        },
+        {
           "label": "Experience",
           "path": "#experience"
         },
@@ -30,23 +34,48 @@
     "name": "Walid Ghani",
     "title": "Frontend Developer",
     "location": "Jakarta, Indonesia",
-    "bio": "With 5 years of experience as a Frontend Developer, I bring deep expertise in creating high-quality web and mobile applications using React, React Native, Next.js, Vue.js, and Nuxt.js. Have ability to adapt to new technologies also a critical thinker make me a valuable asset to any development team. Lets collaborate and bring your ideas to life."
+    "bio": "With 5+ years of experience as a Frontend Developer, I bring deep expertise in creating high-quality web and mobile applications using React, React Native, Next.js, Vue.js, and Nuxt.js. Have ability to adapt to new technologies also a critical thinker make me a valuable asset to any development team. Lets collaborate and bring your ideas to life."
   },
   "contactInfo": {
     "email": "heyghani@gmail.com",
-    "phone": "123-456-7890",
+    "phone": "6281231869860",
     "linkedin": "https://www.linkedin.com/in/heyghani/",
     "github": "https://github.com/heyghani",
-    "instagram": "https://www.instagram.com/heyghani",
-    "website": "https://johndoe.dev"
+    "instagram": "https://www.instagram.com/heyghani"
   },
-  "skills": {
-    "languages": ["JavaScript", "Python", "Java", "C++"],
-    "frameworks": ["React", "Node.js", "Express", "Django", "Spring Boot"],
-    "databases": ["MySQL", "MongoDB", "PostgreSQL"],
-    "tools": ["Git", "Docker", "Kubernetes", "Jenkins", "AWS", "GCP"]
-  },
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "React",
+    "Next.js",
+    "Vue.js",
+    "Nuxt.js",
+    "Node.js",
+    "Express.js",
+    "TailwindCSS",
+    "Jest",
+    "Vercel",
+    "Google Analytics",
+    "Wordpress",
+    "Microfrontend"
+  ],
   "projects": [
+    {
+      "id": "1",
+      "title": "Halos Entertainment",
+      "description": "Web based with Wordpress platform, showing a Talent Management, Entertainment Event, Event Organizer and etc.",
+      "technologies": [
+        "Wordpress",
+        "Elementor Pro",
+        "WooCommerce",
+        "Yoast SEO",
+        "CSS",
+        "HTML"
+      ],
+      "live_url": "https://halosmanagement.id/",
+      "code_repo_url": "",
+      "cover": "/assets/halos.png"
+    },
     {
       "id": "1",
       "title": "Song Request",
@@ -60,7 +89,15 @@
       "id": "1",
       "title": "Holymoment",
       "description": "A project for hw's user that can be find their photos on outlet using face recognition to automaticly detecting their faces, then they can buy it from this application. There is also dashboard for photographer to upload and sell their photograph.",
-      "technologies": ["Typescript", "Next.js", "Redux", "TailwindCSS", "WebGL", "Face Recognition", "Machine Learning"],
+      "technologies": [
+        "Typescript",
+        "Next.js",
+        "Redux",
+        "TailwindCSS",
+        "WebGL",
+        "Face Recognition",
+        "Machine Learning"
+      ],
       "live_url": "https://new.holymoment.hwgroup.id/",
       "code_repo_url": "",
       "cover": "/assets/project_1.jpeg"
@@ -96,7 +133,13 @@
       "id": "5",
       "title": "Dashboard SKK Migas",
       "description": "Dashboard application for internal system for client SKK Migas client of BNI, with using of Microfrontend technology and Reactjs.",
-      "technologies": ["React.s", "TailwindCSS", "Microfrontend SPA", "Docker", "OpenShift"],
+      "technologies": [
+        "React.s",
+        "TailwindCSS",
+        "Microfrontend SPA",
+        "Docker",
+        "OpenShift"
+      ],
       "live_url": "",
       "code_repo_url": "",
       "cover": "/assets/project_5.jpeg"
@@ -105,7 +148,13 @@
       "id": "6",
       "title": "Dashboard KKP",
       "description": "Dashboard application for internal system that integrated with BNI core banking for credit card application that having approval system depends on user role.",
-      "technologies": ["React.js", "TailwindCSS", "Microfrontend SPA", "Docker", "OpenShift"],
+      "technologies": [
+        "React.js",
+        "TailwindCSS",
+        "Microfrontend SPA",
+        "Docker",
+        "OpenShift"
+      ],
       "live_url": "",
       "code_repo_url": "",
       "cover": "/assets/project_6.jpeg"
@@ -114,7 +163,13 @@
       "id": "7",
       "title": "BNI Lifestyle: Taksi",
       "description": "A webview application using Nextjs and integrated with Bluebird API to built in with BNI Mobile for ordering taksi.",
-      "technologies": ["Next.js", "TailwindCSS", "Redux", "Google Maps API", "Geolocation"],
+      "technologies": [
+        "Next.js",
+        "TailwindCSS",
+        "Redux",
+        "Google Maps API",
+        "Geolocation"
+      ],
       "live_url": "",
       "code_repo_url": "",
       "cover": "/assets/bni-lifestyle.jpg"
@@ -123,7 +178,12 @@
       "id": "8",
       "title": "Arcelle App",
       "description": "A mobile apps for retail store that showing their products and user can checkout to proceed a payment.",
-      "technologies": ["React Native", "Redux", "Styled Component", "Xendit Payment Gateway"],
+      "technologies": [
+        "React Native",
+        "Redux",
+        "Styled Component",
+        "Xendit Payment Gateway"
+      ],
       "live_url": "https://play.google.com/store/apps/details?id=com.arcelleapp&hl=id",
       "code_repo_url": "",
       "cover": "/assets/arcelle.jpg"
@@ -132,7 +192,16 @@
       "id": "9",
       "title": "Onekideco",
       "description": "Project for mining company internal system, a dashboard for monitoring and storing data and mobile apps that integrated with the dashboard.",
-      "technologies": ["React.js", "React Native", "Styled Component", "Google Maps API", "Docker", "Azure", "Jest Unit Testing", "Agile Methodology"],
+      "technologies": [
+        "React.js",
+        "React Native",
+        "Styled Component",
+        "Google Maps API",
+        "Docker",
+        "Azure",
+        "Jest Unit Testing",
+        "Agile Methodology"
+      ],
       "live_url": "",
       "code_repo_url": "",
       "cover": "/assets/project_9.jpeg"
@@ -146,7 +215,16 @@
       "role": "Senior Frontend Developer",
       "startDate": "Jan 2024",
       "endDate": "Present",
-      "technologies": ["Vue.js", "Nuxt.js", "Next.js", "React", "Typescript", "TailwindCSS", "Redux", "Pinia"],
+      "technologies": [
+        "Vue.js",
+        "Nuxt.js",
+        "Next.js",
+        "React",
+        "Typescript",
+        "TailwindCSS",
+        "Redux",
+        "Pinia"
+      ],
       "keyResponsibilities": [
         "Developed interactive web applications using advanced JavaScript libraries and APIs such as Nuxtjs and Nextjs.",
         "Identify and fix bugs, and optimize existing code for performance and usability.",
@@ -175,7 +253,7 @@
     {
       "id": "3",
       "company": "PT. Arcelle Adi Perkasa",
-      "companyWebsite": "https://www.indocyber.co.id/",
+      "companyWebsite": "",
       "role": "React Native Developer (Freelance)",
       "startDate": "November 2021",
       "endDate": "February 2022",

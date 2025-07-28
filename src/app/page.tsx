@@ -9,7 +9,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { getBlogPosts, getJSONData } from "@/lib/serverUtils";
+import { getJSONData } from "@/lib/serverUtils";
+("");
 import Link from "next/link";
 import {
   EnvelopeClosedIcon,
@@ -17,13 +18,64 @@ import {
   LinkedInLogoIcon,
   InstagramLogoIcon,
   GlobeIcon,
+  FileIcon,
 } from "@radix-ui/react-icons";
+import {
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiVuedotjs,
+  SiNuxtdotjs,
+  SiNodedotjs,
+  SiExpress,
+  SiTailwindcss,
+  SiJest,
+  SiVercel,
+  SiGoogleanalytics,
+  SiWordpress,
+  SiMicrogenetics,
+} from "react-icons/si";
+import { IconType } from "react-icons";
 import Image from "next/image";
 
 export default async function Home() {
   const data = await getJSONData();
-  const posts = await getBlogPosts();
 
+  function getSkillIconComponent(skill: string): IconType {
+    switch (skill.toLowerCase()) {
+      case "javascript":
+        return SiJavascript;
+      case "typescript":
+        return SiTypescript;
+      case "react":
+        return SiReact;
+      case "next.js":
+        return SiNextdotjs;
+      case "vue.js":
+        return SiVuedotjs;
+      case "nuxt.js":
+        return SiNuxtdotjs;
+      case "node.js":
+        return SiNodedotjs;
+      case "express.js":
+        return SiExpress;
+      case "tailwindcss":
+        return SiTailwindcss;
+      case "jest":
+        return SiJest;
+      case "vercel":
+        return SiVercel;
+      case "google analytics":
+        return SiGoogleanalytics;
+      case "wordpress":
+        return SiWordpress;
+      case "microfrontend":
+        return SiMicrogenetics;
+      default:
+        return SiJavascript;
+    }
+  }
   return (
     <main>
       {/* Banner Section */}
@@ -85,8 +137,37 @@ export default async function Home() {
                   <EnvelopeClosedIcon className="h-4 w-4" />
                 </Button>
               </Link>
+              <Link href="/assets/CV.pdf" download>
+                <Button variant="secondary" size="icon">
+                  <FileIcon className="h-4 w-4" />
+                </Button>
+              </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Skills Section */}
+      <section
+        id="skills"
+        className="container max-w-5xl mx-auto py-12 md:py-16 lg:py-20"
+      >
+        <h2 className="font-bold text-3xl md:text-5xl mb-12">Skills</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          {data.skills.map((skill) => {
+            const Icon = getSkillIconComponent(skill);
+            return (
+              <div
+                key={skill}
+                className="group flex flex-col items-center justify-center p-4 border rounded-xl shadow-sm transition hover:shadow-md bg-white dark:bg-gray-800 dark:border-gray-700"
+              >
+                <Icon className="text-4xl text-gray-600 dark:text-gray-300 group-hover:text-primary transition" />
+                <span className="text-sm font-medium text-center text-gray-700 dark:text-gray-300 mt-2 group-hover:text-primary transition">
+                  {skill}
+                </span>
+              </div>
+            );
+          })}
         </div>
       </section>
 

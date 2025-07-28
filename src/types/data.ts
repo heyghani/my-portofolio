@@ -40,13 +40,6 @@ export interface ContactInfo {
   website: string;
 }
 
-export interface Skills {
-  languages: string[];
-  frameworks: string[];
-  databases: string[];
-  tools: string[];
-}
-
 export interface Project {
   title: string;
   description: string;
@@ -94,7 +87,7 @@ export interface Certification {
 export interface Data {
   personalInfo: PersonalInfo;
   contactInfo: ContactInfo;
-  skills: Skills;
+  skills: string[];
   projects: Project[];
   workExperience: WorkExperience[];
   education: Education[];
