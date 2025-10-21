@@ -197,6 +197,7 @@ export default async function Home() {
               <div className="text-gray-500 dark:text-gray-400">
                 {exp.startDate} - {exp.endDate}
               </div>
+
               <div className="mt-2">
                 <h6 className="font-medium">Key Responsibilities:</h6>
                 <ul className="text-gray-500 text-sm list-disc pl-4">
@@ -204,6 +205,13 @@ export default async function Home() {
                     <li key={resp}>{resp}</li>
                   ))}
                 </ul>
+              </div>
+              <div className="flex flex-wrap gap-2 mt-1">
+                {exp.technologies.map((tech) => (
+                  <Badge key={tech} variant="secondary">
+                    {tech}
+                  </Badge>
+                ))}
               </div>
             </div>
           ))}

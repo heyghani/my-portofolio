@@ -32,9 +32,9 @@
   },
   "personalInfo": {
     "name": "Walid Ghani",
-    "title": "Frontend Developer",
+    "title": "Fullstack Developer",
     "location": "Jakarta, Indonesia",
-    "bio": "With 5+ years of experience as a Frontend Developer, I bring deep expertise in creating high-quality web and mobile applications using React, React Native, Next.js, Vue.js, and Nuxt.js. Have ability to adapt to new technologies also a critical thinker make me a valuable asset to any development team. Lets collaborate and bring your ideas to life."
+    "bio": "Fullstack Developer with over 6 years of frontend and 2 years of backend experience in building scalable, high-performance web and mobile applications. Skilled in modern JavaScript frameworks like React, Next.js, Vue.js, and backend technologies such as Node.js and Express.js. Passionate about delivering seamless user experiences, writing clean maintainable code, and collaborating across product, design, and engineering teams. Lets collaborate and bring your ideas to life!"
   },
   "contactInfo": {
     "email": "heyghani@gmail.com",
@@ -60,6 +60,27 @@
     "Microfrontend"
   ],
   "projects": [
+    {
+      "id": "1",
+      "title": "Helens Night Mart Self Order",
+      "description": "A web application for self order system in Helens Night Mart outlet, integrated with Xendit payment gateway for processing payment and also using Sendgrid for sending email notification to customer after completed the order.",
+      "technologies": [
+        "Next.js",
+        "Redux",
+        "TailwindCSS",
+        "Express.js",
+        "Prisma ORM",
+        "Elysia",
+        "MySQL",
+        "Bun",
+        "Vite",
+        "Xendit Payment Gateway",
+        "Sendgrid"
+      ],
+      "live_url": "https://dev-online-order.holywings.id/484e4d47532f47533142",
+      "code_repo_url": "",
+      "cover": "/assets/self-order.png"
+    },
     {
       "id": "1",
       "title": "Halos Entertainment",
@@ -212,7 +233,7 @@
       "id": "1",
       "company": "HW Group",
       "companyWebsite": "https://new.hwgroup.id/",
-      "role": "Senior Frontend Developer",
+      "role": "Fullstack Developer",
       "startDate": "Jan 2024",
       "endDate": "Present",
       "technologies": [
@@ -223,14 +244,23 @@
         "Typescript",
         "TailwindCSS",
         "Redux",
-        "Pinia"
+        "Pinia",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "PostgreSQL",
+        "Xendit Payment Gateway",
+        "Sendgrid",
+        "Bun",
+        "Vite"
       ],
       "keyResponsibilities": [
         "Developed interactive web applications using advanced JavaScript libraries and APIs such as Nuxtjs and Nextjs.",
         "Identify and fix bugs, and optimize existing code for performance and usability.",
         "Optimized user experience across a range of devices.",
         "Ensure applications are optimized for speed, scalability, and maintainability.",
-        "Work closely with UI/UX designers, backend developers, and product managers to translate design wireframes and business requirements into fully functional, responsive, and user-friendly applications."
+        "Work closely with UI/UX designers, and product managers to translate design wireframes and business requirements into fully functional, responsive, and user-friendly applications.",
+        "Creating REST API and maintain the database using MySQL and PostgreSQL."
       ]
     },
     {
@@ -240,7 +270,19 @@
       "role": "React Developer",
       "startDate": "Januari 2020",
       "endDate": "Dec 2023",
-      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "technologies": [
+        "React",
+        "React Native",
+        "Next.js",
+        "Styled Component",
+        "TailwindCSS",
+        "Redux",
+        "Google FCM",
+        "Google Maps API",
+        "Agile Methodology",
+        "Jest Unit Testing",
+        "Microfrontend Single-SPA"
+      ],
       "keyResponsibilities": [
         "Developed 8+ interactive web & mobile applications using advanced JavaScript libraries and APIs such as Reactjs, React Native and Nextjs.",
         "Participate in agile ceremonies, such as sprint planning, daily stand-ups, and retrospectives.",
@@ -257,10 +299,53 @@
       "role": "React Native Developer (Freelance)",
       "startDate": "November 2021",
       "endDate": "February 2022",
-      "technologies": ["MongoDB", "Express", "React", "Node.js"],
+      "technologies": [
+        "React Native",
+        "Redux",
+        "Google FCM",
+        "Xendit Payment Gateway"
+      ],
       "keyResponsibilities": [
         "Develop such a mobile application using React Native",
         "Work closely with UI/UX designers, backend developers, and product managers to translate design wireframes and business requirements into fully functional, responsive, and user-friendly applications."
+      ]
+    },
+    {
+      "id": "4",
+      "company": "PT. Idola Cahaya Semesta",
+      "companyWebsite": "",
+      "role": "Fullstack Developer",
+      "startDate": "January 2020",
+      "endDate": "October 2020",
+      "technologies": [
+        "React",
+        "React Native",
+        "Expo",
+        "Node.js",
+        "Firebase Firestore",
+        "MySQL"
+      ],
+      "keyResponsibilities": [
+        "Developed dashboard & mobile application using React.js and React Native",
+        "Work closely with the team leader to translate the requirement into fully functional application",
+        "Creating REST API and maintain the database using MySQL",
+        "Configuring and setup firebase firestore for real-time database needs",
+        "Deployed mobile application to the playstore"
+      ]
+    },
+    {
+      "id": "5",
+      "company": "Cronos",
+      "companyWebsite": "",
+      "role": "Junior Web Developer",
+      "startDate": "August 2019",
+      "endDate": "January 2020",
+      "technologies": ["React"],
+      "keyResponsibilities": [
+        "Collaborate with the developer team for building a web application using React.js and Node.js",
+        "Update daily task to the stakeholder for daily progress",
+        "Explore javascript libraries and best practice for frontend developer principal",
+        "Doing pull request and peer review for every changes"
       ]
     }
   ],
